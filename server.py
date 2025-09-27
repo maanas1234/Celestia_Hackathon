@@ -15,8 +15,8 @@ load_dotenv()
 # ---------------- CONFIG ----------------
 MONGO_URI = os.getenv("MONGO_URI")
 CLOUD_NAME = os.getenv("CLOUD_NAME")
-API_KEY = os.getenv("CLOUD_API_KEY")
-API_SECRET = os.getenv("CLOUD_API_SECRET")
+API_KEY = os.getenv("API_KEY")
+API_SECRET = os.getenv("API_SECRET")
 DB_NAME = "women_safety"
 COLLECTION_NAME = "alerts"
 # ---------------------------------------
